@@ -1,0 +1,110 @@
+.main {
+    background-color: rgb(240, 248, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#underline {
+    text-align: center;
+    margin-top: 0;
+    color: rgb(0, 153, 255);
+    text-decoration: underline 8px rgb(0, 153, 255);
+    text-shadow: 1px 0px rgb(0, 153, 255);
+}
+
+.container {
+    box-shadow: 3px 5px 5px rgba(128, 128, 128, 0.197);
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+#person-img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+#author {
+    font-size: 35px;
+    margin: 0;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+#job {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: rgb(0, 195, 255);
+}
+
+#info {
+    width: 90%;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.random {
+    margin-top: 10px;
+    background-color: white;
+    border-color: rgb(0, 195, 255);
+    border-radius: 8px;
+    color: rgb(0, 195, 255);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 20px;
+    transition: color, background-color 0.5s ease;
+}
+
+.random:hover {
+    color: white;
+    background-color: rgb(0, 195, 255);
+    cursor: pointer;
+}
+
+.arrows {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 15px;
+}
+
+.arrow {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(0, 195, 255);
+    background-color: white;
+    border: none;
+    transition: box-shadow 0.5s ease;
+}
+
+.arrow:hover{
+    box-shadow: 0 0 0 3px rgb(0, 195, 255);
+    border-radius: 10px;
+}
+
+.arrow:active{
+    background-color: rgb(0, 195, 255);
+    color: white;
+}
