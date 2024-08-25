@@ -1,0 +1,72 @@
+#title{
+    color: rgb(0, 183, 250);
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+
+body {
+    margin: 0px;
+}
+
+#main{
+    background-color: Gainsboro;
+}
+
+.nav{
+    display: flex;
+    box-shadow: 0px 8px 10px rgba(169, 167, 167, 0.651);
+    justify-content: space-between;
+    padding-left: 500px;
+    padding-right: 500px;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.nav-right a {
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    color: black;
+    padding: 20px;
+}
+
+a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 62px);
+    flex-direction: column;
+    text-align: center;
+}
+
+.display h2 {
+    border: 1px solid black;
+    font-size: 40px;
+    padding: 7px 10px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    background-color: rgb(23, 22, 22);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: inherit;
+    letter-spacing: 1px;
+    font-size: 10px;
+    font-weight: 900;
+    transition: background-color, color 0.5s ease;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+}
