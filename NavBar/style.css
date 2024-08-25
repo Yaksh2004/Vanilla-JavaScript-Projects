@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    padding: 0px 8px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.423);
+}
+
+.brand {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #162b2b;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+    padding: 20px;
+    font: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #306363;
+    transition: color 0.3s ease;
+}
+
+.links a:hover{
+    color: #000000;
+}
+
+.hamburger {
+    display: none;
+}
+
+#burger {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items img{
+    height: 20px;
+    width: 20px;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+
+.list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    margin: 0px;
+    list-style-type: none;
+    padding: 0;
+    box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.423);
+}
+
+.list.open {
+    max-height: 194px;
+}
+
+.list li {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #306363;
+    transition: color, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.list img{
+    height: 15px;
+    width: 15px;
+    margin-right: 5px ;
+    cursor: pointer;
+}
+
+.list li:hover {
+    color: #000000;
+    background-color: rgba(192, 189, 189, 0.388);
+}
+
+
+@media (max-width: 800px) {
+    .items, .links{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+}
